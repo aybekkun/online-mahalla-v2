@@ -50,7 +50,7 @@ export default function HomePage() {
 
 					<div className="container relative mx-auto px-6 lg:px-12 py-24 md:py-32 lg:py-40">
 						<div className="max-w-7xl mx-auto text-center space-y-8 animate-fade-in-up">
-							<h1 className="text-7xl md:text-6xl lg:text-7xl font-bold leading-tight text-balance">
+							<h1 className="text-3xl md:text-6xl lg:text-7xl font-bold leading-tight text-balance">
 								<span className="gradient-text">{t("heroTitle")}</span>
 							</h1>
 							<p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto text-balance leading-relaxed">
