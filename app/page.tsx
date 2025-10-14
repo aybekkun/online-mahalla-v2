@@ -39,7 +39,7 @@ export default function HomePage() {
   }, [searchQuery])
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-b from-background via-background to-secondary/30">
+    <div className="min-h-screen flex flex-col ">
       <Header />
 
       <main className="flex-1">
@@ -73,7 +73,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section id="projects" className="container mx-auto px-6 lg:px-12 py-16 md:py-24">
+        <section id="projects" className="container bg-ne mx-auto px-6 lg:px-12 py-16 md:py-24">
           <div className="mb-12 flex items-center justify-between">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-2">{t("projects")}</h2>

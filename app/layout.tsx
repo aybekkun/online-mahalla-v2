@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans ${inter.variable} ${GeistMono.variable} antialiased`}>
+      <body className={`font-sans ${inter.variable} ${GeistMono.variable}  bg-gray-200 antialiased`}>
         <LanguageProvider>
           <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
         </LanguageProvider>
