@@ -10,9 +10,10 @@ export const translations = {
 		searchPlaceholder: "Search projects...",
 
 		// Hero
-		heroTitle: "Top 100 Most Efficient Micro Projects",
+		heroTitle:
+			"Каракалпакстан Республикасында ислеп шыгарылып атырган онимлер!",
 		heroSubtitle:
-			"Discover innovative projects across Uzbekistan driving economic growth and creating opportunities",
+			"Каракалпакстан Республикасында ислеп шыгарылып атырган онимлер!",
 
 		// Filters
 		filterTitle: "Filter Projects",
@@ -66,10 +67,10 @@ export const translations = {
 		searchPlaceholder: "Loyihalarni qidirish...",
 
 		// Hero
-		heroTitle: "Eng Samarali 100 ta Mikro Loyiha",
+		heroTitle:
+			"Каракалпакстан Республикасында ислеп шыгарылып атырган онимлер!",
 		heroSubtitle:
-			"O'zbekiston bo'ylab iqtisodiy o'sish va imkoniyatlar yaratayotgan innovatsion loyihalarni kashf eting",
-
+			"Каракалпакстан Республикасында ислеп шыгарылып атырган онимлер!",
 		// Filters
 		filterTitle: "Loyihalarni Filtrlash",
 		searchByName: "Nom bo'yicha qidirish",
@@ -122,10 +123,10 @@ export const translations = {
 		searchPlaceholder: "Поиск проектов...",
 
 		// Hero
-		heroTitle: "100 Самых Эффективных Микропроектов",
+		heroTitle:
+			"Каракалпакстан Республикасында ислеп шыгарылып атырган онимлер!",
 		heroSubtitle:
-			"Откройте для себя инновационные проекты по всему Узбекистану, способствующие экономическому росту",
-
+			"Каракалпакстан Республикасында ислеп шыгарылып атырган онимлер!",
 		// Filters
 		filterTitle: "Фильтр Проектов",
 		searchByName: "Поиск по названию",
@@ -178,10 +179,10 @@ export const translations = {
 		searchPlaceholder: "Lóyihalardı izlew...",
 
 		// Hero
-		heroTitle: "Eń Tíimdi 100 Mikro Lóyihalar",
+		heroTitle:
+			"Каракалпакстан Республикасында ислеп шыгарылып атырган онимлер!",
 		heroSubtitle:
-			"Úzbekstan boylap iqtisadi ósiwge úles qosıwshı innovaciyalıq lóyihalardı ashıń.",
-
+			"Каракалпакстан Республикасында ислеп шыгарылып атырган онимлер!",
 		// Filters
 		filterTitle: "Lóyihalardı Süzgish",
 		searchByName: "Atı boyınsha izlew",

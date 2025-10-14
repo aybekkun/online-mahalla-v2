@@ -21,7 +21,7 @@ export function Header() {
 					{/* Logo */}
 					<Link href="/" className="flex items-center gap-2 group">
 						<div className="text-2xl font-bold gradient-text transition-all group-hover:scale-105">
-							Onlayn Mahalla
+							QR
 						</div>
 					</Link>
 
