@@ -1,18 +1,18 @@
 export type ProjectCategory = "Industry" | "Agriculture" | "Services"
 
 export type Region =
-  | "Tashkent"
-  | "Samarkand"
-  | "Bukhara"
-  | "Andijan"
-  | "Fergana"
-  | "Namangan"
-  | "Kashkadarya"
-  | "Surkhandarya"
-  | "Khorezm"
-  | "Navoi"
-  | "Jizzakh"
-  | "Syrdarya"
+  | "Nukus"
+  | "Kegeyli"
+  | "Chimbay"
+  | "Taxtakupir"
+  | "Turtkul"
+  | "Kungrad"
+  | "Amudarya"
+  | "Muynak"
+  | "Qo‘ng‘irot"
+  | "Bozatau"
+  | "Shumanay"
+  | "Qanlikol"
   | "Karakalpakstan"
 
 export interface Project {
@@ -20,6 +20,7 @@ export interface Project {
   title: string
   category: ProjectCategory
   region: Region
+  mahalla: string
   image: string
   initiator: string
   contact: string

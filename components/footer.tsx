@@ -13,7 +13,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-lg font-bold text-primary mb-4">Onlayn Mahalla</h3>
+            <h3 className="text-lg font-bold text-primary mb-4">QR</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">{t("footerDescription")}</p>
           </div>
 
@@ -69,7 +69,7 @@ export function Footer() {
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
           <p>
-            &copy; {new Date().getFullYear()} Onlayn Mahalla. {t("allRights")}
+            &copy; {new Date().getFullYear()} QR. {t("allRights")}
           </p>
         </div>
       </div>

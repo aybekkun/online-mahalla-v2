@@ -15,10 +15,10 @@ const LanguageContext = createContext<LanguageContextType | undefined>(
 )
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-	const [locale, setLocale] = useState<Locale>("uz")
+	const [locale, setLocale] = useState<Locale>("kaa")
 
-	const t = (key: keyof (typeof translations)["uz"]) => {
-		return translations[locale][key] || translations.uz[key]
+	const t = (key: keyof (typeof translations)["kaa"]) => {
+		return translations[locale][key] || translations.kaa[key]
 	}
 
 	return (

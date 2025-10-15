@@ -14,7 +14,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Onlayn Mahalla - Top 100 Most Efficient Micro Projects",
+  title: "QR Top 100 Most Efficient Micro Projects",
   description: "Showcase of 100 of the most effective micro and business projects across Uzbekistan",
   generator: "v0.app",
 }

@@ -47,13 +47,11 @@ export function Header() {
 							value={locale}
 							onValueChange={(value) => setLocale(value as Locale)}
 						>
-							<SelectTrigger className="w-[110px] border-0 bg-secondary/50 hover:bg-secondary transition-colors">
+							<SelectTrigger className="w-[150px] border-0 bg-secondary/50 hover:bg-secondary transition-colors">
 								<SelectValue />
 							</SelectTrigger>
 							<SelectContent>
 								<SelectItem value="uz">O'zbek</SelectItem>
-								<SelectItem value="ru">Русский</SelectItem>
-								<SelectItem value="en">English</SelectItem>
 								<SelectItem value="kaa">Qaraqalpaq</SelectItem>
 							</SelectContent>
 						</Select>

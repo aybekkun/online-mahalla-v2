@@ -9,8 +9,9 @@ import { Input } from "@/components/ui/input"
 import { projects } from "@/lib/projects-data"
 import { ChevronLeft, ChevronRight, Search } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
+import { ProjectFilters } from "@/components/project-filters"
 
-const PROJECTS_PER_PAGE = 9
+const PROJECTS_PER_PAGE = 3
 
 export default function HomePage() {
 	const { t } = useLanguage()
@@ -80,7 +81,7 @@ export default function HomePage() {
 					<div className="mb-12 flex items-center justify-between">
 						<div>
 							<h2 className="text-3xl md:text-4xl font-bold mb-2">
-								{t("projects")}
+								{t("projects").toUpperCase()}
 							</h2>
 							<p className="text-muted-foreground">
 								{t("showing")} {startIndex + 1}-
@@ -88,6 +89,12 @@ export default function HomePage() {
 								{filteredProjects.length}
 							</p>
 						</div>
+						<ProjectFilters
+							onCategoryChange={setSearchQuery}
+							selectedCategory={searchQuery}
+							onRegionChange={setSearchQuery}
+							selectedRegion={searchQuery}
+						/>
 					</div>
 
 					{currentProjects.length > 0 ? (
