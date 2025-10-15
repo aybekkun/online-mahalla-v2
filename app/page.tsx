@@ -78,7 +78,7 @@ export default function HomePage() {
 					id="projects"
 					className="container bg-ne mx-auto px-6 lg:px-12 py-16 md:py-24"
 				>
-					<div className="mb-12 flex items-center justify-between">
+					<div className="mb-12 flex gap-5 flex-wrap flex-col md:flex-row items-center justify-between">
 						<div>
 							<h2 className="text-3xl md:text-4xl font-bold mb-2">
 								{t("projects").toUpperCase()}
